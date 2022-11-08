@@ -34,7 +34,7 @@ jobs:
     name: Build and Push to GCP
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: django_webapp
+      IMAGE_NAME: webapp
       PROJECT_ID: web-app-368006
     steps:
     - name: Checkout
